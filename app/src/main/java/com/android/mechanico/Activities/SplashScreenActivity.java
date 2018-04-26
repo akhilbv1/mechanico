@@ -45,8 +45,8 @@ public class SplashScreenActivity extends Activity {
         }
 
         else {
-            /*Intent intent = new Intent(this,LoginActivity.class);
-            startActivity(intent);*/
+            Intent intent = new Intent(this,LoginActivity.class);
+            startActivity(intent);
         }
     }
 
