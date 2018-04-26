@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sqliteroomlogin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        style="@style/ImageStyle"
+        app:srcCompat="@drawable/mechanico_logo" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textinputlayout_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etEmail"
+            style="@style/EditTextStyle"
+            android:hint="Registered Email or Mobile Number"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textinputlayout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:passwordToggleEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/etPassword"
+            style="@style/EditTextStyle"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:keepScreenOn="false" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/ButtonStyle"
+        android:text="@string/login" />
+
+
+<!--
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="7dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNewUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center|end"
+            android:padding="3dp"
+            android:text="@string/newuser"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtForgotPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="3dp"
+            android:text="@string/forgotpassword"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+-->
+
+</LinearLayout>

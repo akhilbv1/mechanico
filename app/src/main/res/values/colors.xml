@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="purple">#9c27b0</color>
+    <color name="deepPurple">#673ab7</color>
+    <color name="lightPurple">#B39DDB</color>
+    <color name="indigo">#3f51b5</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="app_back_prime">#81a1ab</color>
+    <color name="app_back">#9CA4AB</color>
+
+    <color name="black">#000000</color>
+
+    <color name="orange">#FFA500</color>
+
+    <color name="black_semi_trans">#90000000</color>
+
+    <color name="dark_orange">#FF3D00</color>
+
+    <color name="light_green">#AED581</color>
+
+    <color name="event_back">#f3f3f3</color>
+
+    <color name="event_dummy">#EEEEEE</color>
+
+    <color name="fb_color">#495B67</color>
+
+    <color name="fb_btn_color">#3b5998</color>
+
+    <color name="primary_transparent">#D9f7761f</color>
+
+    <color name="blue_transparent">#D93b5998</color>
+
+    <color name="gray_transparent01">#D9495B67</color>
+
+    <color name="red_color">#ED4431</color>
+    <color name="red_color_semi">#cfed4431</color>
+
+    <!-- <color name="gray_transparent01">#BF495B67</color>-->
+
+    <color name="lightgray">#e7e7e7</color>
+    <color name="lightgray02">#bfbfbf</color>
+
+    <color name="gray_color">#5e5e5e</color>
+
+    <color name="gray_color2">#999999</color>
+
+    <color name="blue">#0091EA</color>
+
+    <color name="tab_text_color">#808080</color>
+
+    <color name="light_gray_color">#E0E0E0</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="semiFullTransparent">#B3000000</color>
+
+    <color name="semiWhiteTransparent">#80FFFFFF</color>
+    <color name="semiBlackTransparent">#99000000</color>
+    <color name="semiTransparent">#59000000</color>
+    <color name="semiBlueTransparent">#3012a7fd</color>
+
+    <color name="chat_color">#fde8da</color>
+    <color name="blocked_color">#eae8e8</color>
+
+    <color name="heart_primary_color">#f7761f</color>
+    <color name="heart_secondary_color">#f7761f</color>
+    <color name="facebook_secondary_color">#3b5998</color>
+    <color name="facebook_primary_color">#dfe3ee</color>
+    <color name="twitter_primary_color">#667580</color>
+    <color name="twitter_secondary_color">#CCD6DD</color>
+    <color name="gray_text_color">#2d2d2d</color>
+
+</resources>

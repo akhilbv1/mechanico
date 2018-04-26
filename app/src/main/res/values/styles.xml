@@ -1,0 +1,70 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme1" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:backgroundSplit">@color/colorPrimaryDark</item>
+    </style>
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">16sp</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@android:color/holo_blue_bright</item>
+    </style>
+
+
+    <style name="ImageStyle">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CustomToolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="myCustomMenuTextAppearance" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>
+</resources>

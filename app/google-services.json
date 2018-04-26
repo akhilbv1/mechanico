@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "765701368482",
+    "firebase_url": "https://mechanico-31540.firebaseio.com",
+    "project_id": "mechanico-31540",
+    "storage_bucket": "mechanico-31540.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765701368482:android:d7155455e2c00834",
+        "android_client_info": {
+          "package_name": "com.android.mechanico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765701368482-138obtu127uh5g70cslh180kpte98isj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrYopfaZ7CjUtUc6rI5kP19DmHuVcD8Ds"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
