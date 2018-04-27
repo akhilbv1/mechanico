@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_acitvitieslist"
+              android:title="@string/navigation_Acitivitieslist"
+            android:icon="@drawable/ic_activities"
+            />
+
+        <item android:id="@+id/dashboard"
+            android:title="Dashboard"
+            android:icon="@drawable/ic_dashboard"
+            />
+
+        <item android:id="@+id/nav_edit_profile"
+            android:title="Edit Profile"
+            android:icon="@drawable/ic_username"/>
+
+        <item android:id="@+id/nav_chng_pass"
+            android:title="@string/navigation_change_password"
+            android:icon="@drawable/ic_password"/>
+
+        <item
+            android:id="@+id/nav_signout"
+            android:title="@string/navigation_signout"
+            android:icon="@drawable/ic_input_white_24dp"/>
+    </group>
+
+</menu>
