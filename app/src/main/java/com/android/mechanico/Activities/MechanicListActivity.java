@@ -72,6 +72,7 @@ public class MechanicListActivity extends AppCompatActivity implements MechanicL
         dialog.setMessage("Loading");
         lat = getIntent().getDoubleExtra("lat",0);
         lng = getIntent().getDoubleExtra("lon",0);
+        location = getIntent().getStringExtra("location");
 
         LatLng latLng = new LatLng(lat,lng);
         getLocationAdressFromAutoDetect(latLng);
@@ -103,7 +104,8 @@ public class MechanicListActivity extends AppCompatActivity implements MechanicL
                     Log.i("locality",""+a.getThoroughfare());
                     Log.i("locality",""+a.getSubThoroughfare());
                     Log.i("locality",""+a.getAddressLine(0));
-                    location = a.getSubLocality();
+                    Log.i("latlng",""+location);
+
                 }
                 Log.i("latlng",""+latLngs.isEmpty());
 

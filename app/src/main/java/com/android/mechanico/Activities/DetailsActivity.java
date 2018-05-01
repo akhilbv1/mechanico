@@ -16,6 +16,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -389,12 +390,21 @@ public class DetailsActivity extends AppCompatActivity implements OnMapReadyCall
     @Override
     public boolean onMarkerClick(Marker marker) {
          LatLng latLng = marker.getPosition();
-         double lat = latLng.latitude;
-         double lon = latLng.longitude;
-        Intent intent = new Intent(this,MechanicListActivity.class);
-        intent.putExtra("lat",lat);
-        intent.putExtra("lon",lon);
-        startActivity(intent);
+         String location="";
+        double lat = latLng.latitude;
+        double lon = latLng.longitude;
+        if(!TextUtils.isEmpty(searchView.getQuery())) {
+            location = String.valueOf(searchView.getQuery());
+            Intent intent = new Intent(this,MechanicListActivity.class);
+            intent.putExtra("lat",lat);
+            intent.putExtra("lon",lon);
+            intent.putExtra("location",location);
+            startActivity(intent);
+        }
+        else
+        {
+            Toast.makeText(this, "please enter location or use Auto-Detect", Toast.LENGTH_SHORT).show();
+        }
         return false;
     }
 
