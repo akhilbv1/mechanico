@@ -11,7 +11,7 @@
         android:id="@+id/TextInputEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/edit_text_margin">
+        android:layout_margin="7dp">
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/etUserName"
@@ -24,7 +24,7 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/edit_text_margin">
+        android:layout_margin="7dp">
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/etEmail"
@@ -37,7 +37,7 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/edit_text_margin">
+        android:layout_margin="7dp">
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/etMobileNum"

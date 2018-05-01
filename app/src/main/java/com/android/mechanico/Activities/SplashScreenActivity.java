@@ -40,8 +40,8 @@ public class SplashScreenActivity extends Activity {
     private void startActivity(){
         CommonUtils.getPreferences(SplashScreenActivity.this);
         if(CommonUtils.isLogin){
-            /*Intent intent = new Intent(this,NavigationDrawerActivity.class);
-            startActivity(intent);*/
+            Intent intent = new Intent(this,DetailsActivity.class);
+            startActivity(intent);
         }
 
         else {

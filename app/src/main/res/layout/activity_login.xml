@@ -25,7 +25,7 @@
         <android.support.design.widget.TextInputEditText
             android:id="@+id/etEmail"
             style="@style/EditTextStyle"
-            android:hint="Registered Email or Mobile Number"
+            android:hint="Registered Email"
             android:inputType="textEmailAddress" />
     </android.support.design.widget.TextInputLayout>
 
@@ -46,14 +46,13 @@
 
     <Button
         android:id="@+id/btnLogin"
-        style="@style/ButtonStyle"
-        android:text="@string/login" />
-
-
-<!--
-
-
-
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="Login "
+        android:background="@color/colorPrimary"
+        android:layout_margin="7dp"
+        android:layout_height="wrap_content" />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,7 +76,7 @@
             android:textSize="15sp" />
 
         <TextView
-            android:id="@+id/txtForgotPass"
+            android:id="@+id/txtnewMech"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -85,10 +84,9 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="3dp"
-            android:text="@string/forgotpassword"
+            android:text="@string/mechReg"
             android:textColor="@android:color/black"
             android:textSize="15sp" />
     </LinearLayout>
--->
 
 </LinearLayout>

@@ -4,11 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <FrameLayout
-        android:id="@+id/toolbar_container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
@@ -16,11 +11,17 @@
             style="@style/myCustomMenuTextAppearance"
             android:background="@color/colorPrimary" />
 
-        <com.miguelcatalan.materialsearchview.MaterialSearchView
+    <SearchView
+        android:id="@+id/searchLoc"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:iconifiedByDefault="false"
+        android:requiresFadingEdge="vertical"
+        android:layout_height="wrap_content"/>
+        <!--<com.miguelcatalan.materialsearchview.MaterialSearchView
             android:id="@+id/search_view"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </FrameLayout>
+            android:layout_height="wrap_content" />-->
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -49,6 +50,7 @@
             android:layout_gravity="center"/>
     </FrameLayout>
     <Button
+        android:id="@+id/btnpickuplater"
         android:layout_width="match_parent"
         android:layout_gravity="bottom"
         android:textColor="@color/white"

@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Mechanico</string>
     <string name="login">Login</string>
     <string name="title">Mechanico</string>
+    <string name="reg_username">username</string>
+    <string name="reg_email">email</string>
+    <string name="reg_mobile_num">mobile number</string>
+    <string name="newuser">New User? Register Here</string>
+    <string name="mechReg">Mechanic? Register Here</string>
 </resources>

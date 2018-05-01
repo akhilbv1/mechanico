@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/mechanico_logo" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextInputUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etCustName"
+                    style="@style/EditTextStyle"
+                    android:hint="Customer Name"
+                    android:inputType="textCapSentences|textCapWords" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextInputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etContNum"
+                    style="@style/EditTextStyle"
+                    android:hint="Contact Number"
+                    android:inputType="number" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etVehType"
+                    style="@style/EditTextStyle"
+                    android:hint="Vehicle Type"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextInputMobileNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp">
+
+                <EditText
+                    android:id="@+id/etPickDate"
+                    style="@style/EditTextStyle"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:hint="Date" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/TextInputPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etTime"
+                    style="@style/EditTextStyle"
+                    android:focusable="false"
+                    android:hint="Time"
+                    android:inputType="none" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etType"
+                    style="@style/EditTextStyle"
+                    android:focusable="false"
+                    android:hint="Problem Type"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/etLocation"
+                        style="@style/EditTextStyle"
+                        android:hint="Location"
+                        android:inputType="text" />
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/ivCurrenntLocation"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="end|center"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/ic_my_location_black"
+                    />
+            </FrameLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/etMech"
+                    style="@style/EditTextStyle"
+                    android:focusable="false"
+                    android:hint="Mechanic"
+                    android:inputType="none" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/btnPickUP"
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:textColor="@color/white"
+                android:text="Pickup Later"
+                android:background="@color/colorPrimary"
+                android:layout_margin="7dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

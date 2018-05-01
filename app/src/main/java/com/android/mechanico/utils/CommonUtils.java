@@ -76,7 +76,7 @@ public class CommonUtils {
         }
         return sb.toString();
     }
-    public static  String generateActivityID() {
+    public static  String generateMechanicID() {
         final String OTPCharacters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
         Random RANDOM = new Random();
         StringBuilder sb = new StringBuilder(6);
